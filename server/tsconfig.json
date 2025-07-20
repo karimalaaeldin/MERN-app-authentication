@@ -1,0 +1,10 @@
+{
+  "extends": "@tsconfig/node22/tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./dist" /* Specify an output folder for all emitted files. */,
+    // "rootDir": "./" /* Specify the root folder within your source files. */,
+    // "rootDir": "./src" /* Specify the root folder within your source files. */,
+  },
+  "include": ["./**/*.ts"],
+  "exclude": ["node_modules", "dist"]
+}
